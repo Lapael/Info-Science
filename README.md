@@ -1,6 +1,6 @@
-# Info-Science
+# **Info-Science**
 
-## Day - 1
+## **Day - 1**
 ### 기초 설명
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연산자, 자료형, 변수 등 Python의 기초 지식 설명
 ### CodeUp 문제 풀이
