@@ -18,4 +18,5 @@
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q6076 - Q6098 Clear CodeUp 기초 100제 모두 해결
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q6097, Q6098 의 설탕과자 뽑기, 성실한 개미 문제가 인상깊었다.
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이중 리스트를 좌표 평면으로 설정한 뒤. 좌표값을 지정할 때 수학에서는 (x, y)를 지정한 것이
-#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이중 리스트에서는 (y, x)로 대응되기에 약간의 오류가 있었지만 재미있게 풀었던 것 같다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이중 리스트에서는 (y, x)로 대응되기에 약간의 오류가 있었지만 재미있게 풀었다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이번 과정을 통해 이중 리스트를 더욱 더 원활히 다룰 수 있게 된 것 같다.
