@@ -27,4 +27,8 @@
 ### 백준 문제 풀이
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15591번: MooTube (USACO - Silver) 해결
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영상과 영상 사이의 유사도를 지정, 어떤 영상을 보고 있을 때, 그 영상과 다른 영상들 중 유사도가 어떤 기준값 K보다 크다면 그 영상을 추천
-#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이 과정을 반복하여 추천해줄 수 있는 영상의 수를 계산
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이 과정을 반복하여 추천해줄 수 있는 영상의 수를 계산하여 추천
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이 과정에서 겪은 오류들 : 얕은 복사, 깊은 복사, 메모리 초과
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
