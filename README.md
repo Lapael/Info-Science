@@ -1,5 +1,5 @@
 # **Info-Science**
-##### &nbsp;
+
 ## **Day - 1**
 ### 기초 설명
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연산자, 자료형, 변수 등 Python의 기초 지식 설명
@@ -32,5 +32,8 @@
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이 과정을 반복하여 추천해줄 수 있는 영상의 수를 계산하여 추천
 ##### &nbsp;
 #### 이 과정에서 겪은 오류들 : 얕은 복사, 깊은 복사, 메모리 초과
-#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;파이썬은 객체 지향 프로그래밍이기 때문에 list를 함수같은 지역 변수를 사용하는 부분에서 불러올 때, 전역 변수로 처리된다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이로 인해 배열을 복사할 때 기본적으로 얕은 복사가 된다. 이로 인해 배열의 어떤 부분을 변경해도 다른 배열의 어떤 부분이 변경될 수 있다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이러한 파이썬의 특징으로 인해 함수에서 list를 불러오고 이 리스트를 수정하는 과정에서 불러온 원본 list 또한 수정된다는 문제가 발생했다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이를 해결하기 위해 함수에서 list를 불러올 때 깊은 복사 처리를 하여 완전히 독립된 새로운 list를 만드는 형식으로 수정해 문제를 해결할 수 있었다.
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
