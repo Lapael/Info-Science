@@ -28,7 +28,7 @@
 ## **Day - 3**
 ### 백준 문제 풀이
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15591번: MooTube (USACO - Silver) 해결
-#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영상과 영상 사이의 유사도를 지정, 어떤 영상을 보고 있을 때, 그 영상과 다른 영상들 중 유사도가 어떤 기준값 K보다 크다면 그 영상을 추천
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영상과 영상 사이의 유사도를 지정, 어떤 영상을 보고 있을 때, 그 영상과 다른 영상들 중 유사도가 어떤 기준값 K보다 크다면 그 영상을 추천한다.
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이 과정을 반복하여 추천해줄 수 있는 영상의 수를 계산하여 추천
 ##### &nbsp;
 #### 이 과정에서 겪은 오류들 : 얕은 복사, 깊은 복사, 메모리 초과
@@ -36,4 +36,8 @@
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이로 인해 배열을 복사할 때 기본적으로 얕은 복사가 된다. 이로 인해 배열의 어떤 부분을 변경해도 다른 배열의 어떤 부분이 변경될 수 있다.
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이러한 파이썬의 특징으로 인해 함수에서 list를 불러오고 이 리스트를 수정하는 과정에서 불러온 원본 list 또한 수정된다는 문제가 발생했다.
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이를 해결하기 위해 함수에서 list를 불러올 때 깊은 복사 처리를 하여 완전히 독립된 새로운 list를 만드는 형식으로 수정해 문제를 해결할 수 있었다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하지만 백준에서 걸어둔 메모리 제한으로 인해 재귀를 사용하는 나의 코드는 메모리 초과로 인한 오류를 낳았다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이를 해결하기 위해 defaultdict와 deque를 사용하였다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaultdict를 통해 저장하지 않은 값은 설정하지 않아 코드의 크기를 줄이고 deque를 이용해 배열의 왼쪽부터 처리해 시간복잡도를 Q(N)을 Q(1)로 줄일 수 있었다.
+#####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 #####   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
