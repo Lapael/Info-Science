@@ -86,7 +86,7 @@
 - **Object**는 실제 인스턴스
 - **체스봇 강화학습 프로젝트**에서도 **Class**를 사용함
 - 체스는 흑과 백이 동일한 기능을 가지는 대칭적 구조의 **제로섬 게임**이기에 **Class**가 필수적
-- 각 기물에 따른 **Move Class**, 게임 전체 상태 종합하는 **GameState Class** 등을 흑/백에 할당하여 설정
+- 각 기물에 따른 `Move Class`, 게임 전체 상태 종합하는 `GameState Class` 등을 흑/백에 할당하여 설정
 - 즉 여기서 흑/백은 **Class**로 찍어낸 **Object**가 됨
 
 ### 🔹 Computer Vision
