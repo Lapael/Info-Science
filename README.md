@@ -1,4 +1,4 @@
-# Info-Science 클래스 기록
+# Info-Science
 
 ---
 
