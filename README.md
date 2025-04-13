@@ -1,5 +1,5 @@
-# Info-Science
 ![Image](https://github.com/user-attachments/assets/fca1724d-b29d-4f57-979f-55ebc36efd48)
+
 ---
 
 ## Day 1
