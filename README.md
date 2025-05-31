@@ -140,3 +140,17 @@
 ### 🔹 OpenCV 다루기
 - 저번 시간에 이은 OpenCV 기본적 함수 다루기의 연장선
 - 좌표를 저장하고 매핑해 이미지의 특정 구간을 추출해 보여주는 코드 작성
+
+---
+
+## Day 7
+
+### 🔹 Computer Science
+- Computer Science의 여러 분야 소개
+- 인공지능, 데이터베이스, 컴퓨터비전 등
+- 컴퓨터비전에는 Object Detection, Image Classification, OCR 등이 있음
+
+### 🔹 감정 인식 기능
+- FER, Deepface 등의 라이브러리를 이용해 웹캠을 기반으로 사용자의 감정을 인식하는 코드 개발
+- 개발 과정에서 파이썬 버전, 라이브러리 패스 문제 등 다양한 문제가 발생
+- 나는 이전에 `face-detection-adas-0001`같은 Pre-trained 모델을 불러와 비슷한 기능을 구현했었는데 라이브러리로 구현하려 하니 오히려 복잡했음
