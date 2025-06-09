@@ -163,4 +163,27 @@
 ---
 
 ## Project
-https://github.com/Lapael/py-AdaIN/ 참조
+
+### 🔹 주제
+- AdaIN을 이용한 Style Transfer 모델 구현하기
+
+### 🔹 선정 이유
+- AI 생성 이미지들을 보다가 문뜩 AI가 특정 작가의 그림체를 학습해 사용하는 것처럼 특정 이미지의 그림체를 다른 이미지에 적용할 수 있을지 궁금해서 관련 자료를 찾아보다가 가능하단 것을 알게 되어 이 주제를 선정했다.
+
+### 🔹 개인 소감
+- 2개의 모델로 구성된 것이 예전에 구현해본 GAN과 비슷해 유사한 느낌이 들었다.
+- Encoder와 Decoder을 대칭적으로 구성해 수치화해 처리를 한 뒤, 원형으로 되돌리는 방식이 인상깊었다.
+- 확통시간에 배운 Statistic 수치들이 Style Transfer에도 적용될 수 있다는 것이 신기했다.
+- VGG라는 Pre-trained 모델이 자주 사용된다는 것을 알게 되었다.
+
+### 🔹 참교 자료 / GPT
+- https://claude.ai/share/94117bf5-dd40-45c6-96b4-55b42110caef - AdaIN 사전 지식 및 필요 요소
+- https://claude.ai/share/24f5cbeb-0025-4a10-a998-0a789cc22fba - 데이터셋 처리
+- https://claude.ai/share/175f088b-3fd6-40d8-81bf-9ed162882084 - 기능 개선
+- https://github.com/naoto0804/pytorch-AdaIN - AdaIN 구현 참고
+- https://lifeignite.tistory.com/48 - AdaIN 원리 이해
+- https://wikidocs.net/164796 - VGG Encoder
+- 대화형 / Shell 실행형 생성(Claude 사용, 실수로 로그 지움)
+
+### 🔹 결과
+- https://github.com/Lapael/py-AdaIN/
