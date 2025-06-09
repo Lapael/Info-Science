@@ -159,3 +159,8 @@
 - Computer Vision 관련 개인 프로젝트 구상 시작
 - 주제 1) Anime 프로필 사진 Image Classification Model 제작 : 학교 프로그래밍 시간에 애니프사와 코딩 실력간의 상관관계를 분석하기 위해 프로필 사진이 애니프사인지 판단하는 모델이 필요해서 이를 이번 프로젝트로 제작
 - 주제 2) 다른 Vision 모델
+
+---
+
+## Project
+https://github.com/Lapael/py-AdaIN/ 참조
