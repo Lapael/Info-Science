@@ -187,3 +187,4 @@
 
 ### 🔹 결과
 - https://github.com/Lapael/py-AdaIN/
+- 발표자료 : https://docs.google.com/presentation/d/1g-prDu0Rs1xlCuPOgyS0GMYowVC3iX3K/edit?usp=sharing&ouid=114230058574951117851&rtpof=true&sd=true
